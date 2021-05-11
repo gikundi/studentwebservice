@@ -15,6 +15,10 @@ mvn install -DskipTests
 ```python
 java -jar target /students-soap-web-services-0.0.1-SNAPSHOT.jar
 ```
+## Accessing the WSDL
+
+You can view the wsdl via http://localhost:8085/ws/students.wsdl
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
